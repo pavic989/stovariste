@@ -46,7 +46,7 @@ body {
   background: url(../img/bg01.jpg) center no-repeat fixed; }
 
 #main {
-  height: 400px;
+  overflow: auto;
   background-color: #61625b;
   background: #1c1c1c;
   background: -moz-linear-gradient(top, #1c1c1c 0%, #45484d 100%);
