@@ -1,0 +1,75 @@
+.overlay  
+  color: #fff
+  position: absolute
+  z-index: 12
+  top: 20%
+  left: 0
+  width: 100%
+  text-align: center
+// CUSTOMIZE THE NAVBAR
+// Special class on .container surrounding .navbar, used for positioning it into place. 
+.navbar-wrapper 
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  z-index: 10
+// CUSTOMIZE THE CAROUSEL
+//Carousel base class 
+.carousel 
+  margin-bottom: 40px
+
+// Since positioning the image, we need to help out the caption 
+.carousel-caption 
+  z-index: 1
+
+
+// Declare heights because of positioning of img element 
+.carousel .item 
+  height: 400px
+  background-color: #555
+
+.carousel img 
+  position: absolute
+  top: 0
+  left: 0
+  min-height: 400px
+@media ( min-width: 768px ) 
+
+  // Navbar positioning foo 
+  .navbar-wrapper 
+    margin-top: 20px
+    margin-bottom: -90px // Negative margin to pull up carousel. 90px is roughly margins and height of navbar. 
+  
+  // The navbar becomes detached from the top, so we round the corners 
+  .navbar-wrapper .navbar 
+    border-radius: 4px
+  
+
+  // Bump up size of carousel content 
+  .carousel-caption p 
+    margin-bottom: 20px
+    font-size: 21px
+    line-height: 1.4
+
+// ============= End Carousel Settings ============= 
+
+
+body
+  background: url(../img/bg01.jpg) center no-repeat fixed
+
+#main 
+  height: 400px
+  background-color: #61625b
+  background: rgb(28,28,28) /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(28,28,28,1) 0%, rgba(69,72,77,1) 100%) /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(28,28,28,1)), color-stop(100%,rgba(69,72,77,1))) /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(69,72,77,1) 100%) /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(69,72,77,1) 100%) /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(69,72,77,1) 100%) /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(28,28,28,1) 0%,rgba(69,72,77,1) 100%) /* W3C */
+  border-radius: 15px
+  color: #F2E8E8
+
+    
+
