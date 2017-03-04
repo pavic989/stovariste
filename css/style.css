@@ -67,7 +67,12 @@ body {
   height: 225px; }
 
 .imgMargin {
-  margin: 5px; }
+  margin: 5px;
+  opacity: 0.8;
+  transition: 0.5s ease-out; }
+
+.imgMargin:hover {
+  opacity: 1; }
 
 .navbar-collapse {
   z-index: 100 !important; }
