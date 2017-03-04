@@ -72,7 +72,8 @@ body {
   transition: 0.5s ease-out; }
 
 .imgMargin:hover {
-  opacity: 1; }
+  opacity: 1;
+  box-shadow: 8px 8px 3px #888888; }
 
 .navbar-collapse {
   z-index: 100 !important; }
