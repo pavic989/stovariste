@@ -1,7 +1,7 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .content img {
-    width: 100px;
-    height: 75px; } }
+    width: 100px !important;
+    height: 75px !important; } }
 .overlay {
   color: #fff;
   position: absolute;
