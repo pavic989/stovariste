@@ -4,15 +4,15 @@ $(function(){
     });
 });
 
-function fadeFunction() {
-    $(".content").fadeIn(700);
-}
+// function fadeFunction() {
+//     $("#view").fadeIn(700);
+// }
 
 
 $(document).ready(function(){
 	$('li a').click(function(e){
 		e.preventDefault();
-		$("#main").load($(this).attr('href'), {}, fadeFunction);
+		$("#main").load($(this).attr('href'));
 	});
 });
 
