@@ -4,6 +4,9 @@ $(function(){
     });
 });
 
+function fadeFunction() {
+    $(".content").fadeIn(700);
+}
 
 
 $(document).ready(function(){
@@ -14,13 +17,10 @@ $(document).ready(function(){
 });
 
 
-function fadeFunction() {
-    $(".content").fadeIn(700);
-}
 
 
-function iAmACallbackFunction() {
-$("#contents").fadeIn(700);
-}
+// function iAmACallbackFunction() {
+// $("#contents").fadeIn(700);
+// }
 
-$('#studies').load("external.html", {}, iAmACallbackFunction);
+// $('#studies').load("external.html", {}, iAmACallbackFunction);
