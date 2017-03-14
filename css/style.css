@@ -79,7 +79,7 @@ body {
   z-index: 100 !important; }
 
 .side-navigation {
-  margin-top: 10px;
+  margin-top: 10px !important;
   padding: 10px; }
   .side-navigation a {
     color: #9d9d9d;
