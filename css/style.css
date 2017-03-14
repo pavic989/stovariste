@@ -78,4 +78,13 @@ body {
 .navbar-collapse {
   z-index: 100 !important; }
 
+.side-navigation {
+  margin-top: 10px;
+  padding: 10px; }
+  .side-navigation a {
+    color: #9d9d9d;
+    font-size: 20px; }
+  .side-navigation a:hover {
+    color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
