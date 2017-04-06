@@ -46,6 +46,15 @@
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4; } }
+.navbar-brand {
+  font-family: "Lobster", cursive; }
+
+.brendTitle {
+  font: 60px bold italic "Lobster", cursive; }
+
+.textFont {
+  font: italic "Roboto", sans-serif; }
+
 body {
   background: url(../img/bg01.jpg) center no-repeat fixed; }
 
@@ -90,6 +99,10 @@ body {
 #scroller-top-button {
   border-radius: 50%;
   background-color: #9d9d9d;
-  color: #fff; }
+  color: #fff;
+  font: 50px italic bold; }
+
+#contactSide p {
+  font: italic "Roboto", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

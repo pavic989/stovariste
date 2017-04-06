@@ -1,4 +1,6 @@
 @import 'partials/mobile'
+$font-logo: 'Lobster', cursive
+$fontText: 'Roboto', sans-serif
 .overlay  
   color: #fff
   position: absolute
@@ -53,9 +55,15 @@
     font-size: 21px
     line-height: 1.4
 
+
 // ============= End Carousel Settings ============= 
 
-
+.navbar-brand
+  font-family: $font-logo
+.brendTitle
+  font: 60px bold italic $font-logo
+.textFont
+  font: italic $fontText
 body
   background: url(../img/bg01.jpg) center no-repeat fixed
 
@@ -103,6 +111,11 @@ body
   border-radius: 50%
   background-color: #9d9d9d
   color: #fff
+  font: 50px italic bold
+
+#contactSide
+  p
+    font: italic $fontText 
 
 
     
