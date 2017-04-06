@@ -50,7 +50,9 @@
   font-family: "Lobster", cursive; }
 
 .brendTitle {
-  font: 60px "Lobster", cursive; }
+  font: 60px "Lobster", cursive;
+  color: #0622FF;
+  font-weight: 900; }
 
 .textFont {
   font-family: "Roboto", sans-serif; }
