@@ -50,7 +50,7 @@
     font-size: 21px;
     line-height: 1.4; } }
 .carousel-control {
-  z-index: 1; }
+  z-index: 10; }
 
 .navbar-brand {
   font-family: "Lobster", cursive;
