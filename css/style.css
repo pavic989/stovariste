@@ -53,7 +53,8 @@
   z-index: 100; }
 
 .navbar-brand {
-  font-family: "Lobster", cursive; }
+  font-family: "Lobster", cursive;
+  z-index: 1000 !important; }
 
 .brendTitle {
   font: 60px "Lobster", cursive;
