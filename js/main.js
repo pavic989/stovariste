@@ -15,4 +15,16 @@ $(document).ready(function(){
 });
 
 
+$(function(){
+	$('ul.nav li.dropdown').hover(function(){
+		$('.dropdown-menu', this).fadeIn();                   
+	}, function() {
+		$('.dropdown-menu', this).fadeOut('fast');
+	});
+});
 
+$(document).on('click', '.navbar-collapse.in', function (e) {
+    if ($(e.target).is('a')) {
+        $(this).collapse('hide');
+    }
+});
