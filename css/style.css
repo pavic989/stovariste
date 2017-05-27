@@ -10,7 +10,7 @@
   .form-group {
     padding: 0; }
     .form-group:first-child {
-      padding-right: 0; } }
+      padding-right: 0 !important; } }
 @media screen and (max-width: 600px) {
   .content img {
     width: 100px !important;
@@ -25,7 +25,7 @@
   .form-group {
     padding: 0; }
     .form-group:first-child {
-      padding-right: 0; } }
+      padding-right: 0 !important; } }
 .form-group {
   padding: 0; }
   .form-group:first-child {
