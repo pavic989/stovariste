@@ -12,6 +12,11 @@
     .form-group:first-child {
       padding-right: 0 !important; } }
 @media screen and (max-width: 600px) {
+  #scroller-top-button {
+    font: 40px italic bold !important;
+    width: 40px !important;
+    height: 40px !important; }
+
   .content img {
     width: 100px !important;
     height: 70px !important; }
