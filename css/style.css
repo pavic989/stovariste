@@ -5,7 +5,7 @@
     height: 25px !important; }
 
   .paddRemove {
-    padding: 0 !important; } }
+    padding: 0 2px; } }
 @media screen and (max-width: 600px) {
   .content img {
     width: 100px !important;
@@ -15,7 +15,7 @@
     font-size: 40px !important; }
 
   .paddRemove {
-    padding: 0; } }
+    padding: 0 2px; } }
 .form-group {
   padding: 0; }
   .form-group:first-child {
