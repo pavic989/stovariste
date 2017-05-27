@@ -1,8 +1,8 @@
 @media screen and (max-width: 320px) {
   #scroller-top-button {
-    font: 25px italic bold;
-    width: 25px;
-    height: 25px; } }
+    font: 25px italic bold !important;
+    width: 25px !important;
+    height: 25px !important; } }
 @media screen and (max-width: 600px) {
   .content img {
     width: 100px !important;
