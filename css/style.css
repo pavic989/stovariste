@@ -2,14 +2,20 @@
   #scroller-top-button {
     font: 25px italic bold !important;
     width: 25px !important;
-    height: 25px !important; } }
+    height: 25px !important; }
+
+  .paddRemove {
+    padding: 0 !important; } }
 @media screen and (max-width: 600px) {
   .content img {
     width: 100px !important;
     height: 70px !important; }
 
   .brendTitle {
-    font-size: 40px !important; } }
+    font-size: 40px !important; }
+
+  .paddRemove {
+    padding: 0; } }
 .form-group {
   padding: 0; }
   .form-group:first-child {
