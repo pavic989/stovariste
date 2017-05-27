@@ -5,6 +5,9 @@
 
   .brendTitle {
     font-size: 40px !important; } }
+#scroller-top-button {
+  display: none; }
+
 .overlay {
   color: #fff;
   position: absolute;
