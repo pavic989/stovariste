@@ -1,36 +1,32 @@
 @media screen and (max-width: 320px) {
   #scroller-top-button {
     font: 25px italic bold !important;
-    width: 25px !important;
+    width: 25px	!important;
     height: 25px !important; }
-
   .paddRemove {
     padding: 0 2px; }
-
   .form-group {
     padding: 0; }
     .form-group:first-child {
       padding-right: 0 !important; } }
+
 @media screen and (max-width: 600px) {
   #scroller-top-button {
     font: 40px italic bold !important;
-    width: 40px !important;
+    width: 40px	!important;
     height: 40px !important; }
-
   .content img {
     width: 100px !important;
     height: 70px !important; }
-
   .brendTitle {
     font-size: 40px !important; }
-
   .paddRemove {
     padding: 0 2px; }
-
   .form-group {
     padding: 0; }
     .form-group:first-child {
       padding-right: 0 !important; } }
+
 .form-group {
   padding: 0; }
   .form-group:first-child {
@@ -72,14 +68,13 @@
   .navbar-wrapper {
     margin-top: 20px;
     margin-bottom: -90px; }
-
   .navbar-wrapper .navbar {
     border-radius: 4px; }
-
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4; } }
+
 .carousel-control {
   z-index: 8; }
 
@@ -109,6 +104,7 @@ body {
   background: -webkit-linear-gradient(top, #1c1c1c 0%, #45484d 100%);
   background: -o-linear-gradient(top, #1c1c1c 0%, #45484d 100%);
   background: -ms-linear-gradient(top, #1c1c1c 0%, #45484d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1c1c1c), to(#45484d));
   background: linear-gradient(to bottom, #1c1c1c 0%, #45484d 100%);
   border-radius: 15px;
   color: #F2E8E8; }
@@ -119,17 +115,21 @@ body {
 
 .imgMargin {
   margin: 5px;
-  opacity: 0.8;
-  transition: all 0.5s ease-in; }
+  opacity: .8;
+  -webkit-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  transition: all .5s ease-in; }
 
 .imgMargin:hover {
   opacity: 1;
+  -webkit-box-shadow: 8px 8px 3px #888888;
   box-shadow: 8px 8px 3px #888888; }
 
 .navbar-collapse {
   z-index: 100 !important; }
 
 .side-navigation {
+  position: fixed;
   margin-top: 10px !important;
   padding: 10px; }
   .side-navigation a {
@@ -152,5 +152,3 @@ p {
 
 .embed-responsive {
   margin-bottom: 10px; }
-
-/*# sourceMappingURL=style.css.map */
