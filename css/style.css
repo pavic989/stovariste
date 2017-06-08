@@ -139,13 +139,7 @@ body {
     color: #fff; }
 
 #scroller-top-button {
-  border-radius: 50%;
-  background-color: #9d9d9d;
-  color: #fff;
-  font: 50px italic bold; }
-
-p {
-  font-family: "Roboto", sans-serif; }
+  display: none; }
 
 #form-submit {
   margin-left: 5px; }
